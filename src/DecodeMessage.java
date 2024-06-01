@@ -17,7 +17,6 @@ public class DecodeMessage {
             e.printStackTrace();
             return null;
         }
-
         List<Integer> endOfLineNumbers = pyramid(numberToWordMap.size());
         StringBuilder decodedMessage = new StringBuilder();
         for (int num : endOfLineNumbers) {
